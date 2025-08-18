@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /* Create posts table */
 return new class extends Model {
     public function up(): void
@@ -19,6 +21,6 @@ return new class extends Model {
 
     public function down(): void
     {
-        $this->exec("DROP TABLE `posts`;");
+        $this->exec('DROP TABLE `posts`;');
     }
 };
