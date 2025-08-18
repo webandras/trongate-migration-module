@@ -21,6 +21,6 @@ return new class extends Model {
 
     public function down(): void
     {
-        $this->exec('DROP TABLE `posts`;');
+        $this->exec('DROP TABLE IF EXISTS `posts`;');
     }
 };

@@ -63,7 +63,7 @@ final class MigrationService extends Model
     public function _create_migrations_table(): void
     {
         $this->exec(
-            'CREATE TABLE IF NOT EXISTS `' . self::MIGRATIONS . "` (
+            "CREATE TABLE IF NOT EXISTS `" . self::MIGRATIONS . "` (
                     `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
                     `migration` varchar(255) NOT NULL,
                     `processed` TINYINT DEFAULT 0,

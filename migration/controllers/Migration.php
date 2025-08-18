@@ -94,7 +94,7 @@ final class Migration extends Trongate
                 }
             }
         }
-        echo $direction . '...OK';
+        echo ucfirst($direction) . '...OK!';
         exit;
     }
 }
