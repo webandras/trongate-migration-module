@@ -2,7 +2,6 @@
 
 Author: András Gulácsi
 Licence: (Copyright) MIT 2023-2025
-Version: 1.0.0
 
 ## Install
 
