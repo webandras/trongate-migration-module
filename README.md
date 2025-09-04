@@ -1,7 +1,8 @@
 # Trongate Migration Runner module
 
-Author: András Gulácsi
-Licence: (Copyright) MIT 2023-2025
+- Author: András Gulácsi
+- Licence: (Copyright) MIT 2023-2025
+- Version: 1.0.2
 
 ## Install
 
